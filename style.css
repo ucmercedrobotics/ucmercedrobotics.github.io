@@ -1,0 +1,191 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Serif";
+    line-height: 1.6;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #002856 92%, #daa900 8%);
+    background-size: 100% 100%;
+    margin-bottom: -10px;
+}
+
+header h1 {
+    margin: -10px 0;
+    font-size: 48px;
+    font-family: "Roboto Serif";
+}
+
+header h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    font-family: "Roboto Serif";
+}
+
+header h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: "Roboto Serif";
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    font-family: "Roboto Serif";
+    position: relative; /* Important for positioning the dropdown */
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Dropdown menu styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #002856;
+    top: 100%; /* Position below the button */
+    left: 0;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-wrap: break-word; /* Wrap long text to prevent overflow */
+    white-space: normal; /* Allow text to wrap to the next line */
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s ease, border-radius 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.dropdown-content a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #daa900;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Animation for gradient background */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Caption styling */
+.caption {
+    font-family: 'Roboto Serif'; /* Use Roboto Serif for captions */
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* Media container styling */
+.media-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between video and image */
+    margin: 20px 0;
+}
+
+.video-container, .image-container {
+    width: 100%; /* Ensure both containers take equal width */
+    max-width: 600px; /* Set a maximum width */
+    height: auto; /* Adjust height automatically */
+}
+
+.video-container video, .image-container img {
+    width: 100%; /* Make video and image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Image styling */
+.image-container img {
+    display: block; /* Remove any space below the image */
+}
+
+/* New link section styling */
+.link-section {
+    font-family: 'Roboto Serif'; /* Use Roboto Serif for captions */
+    font-size: 16px; /* Adjust heading size */
+    margin-bottom: 10px;
+    color: royalblue; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: border around the section */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+.link-section:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.header-image-container {
+    display: flex;
+    align-items: center; /* Vertically center the image and header */
+    gap: 20px; /* Space between image and header */
+    margin: 10px 0; /* Margin around the section */
+    justify-content: center; /* Center align the contents horizontally */
+}
+
+.header-image {
+    width: 100px; /* Fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-link-container {
+    text-align: center; /* Center align the contents */
+    margin: 20px 0; /* Margin around the container */
+}
+
+.small-image {
+    width: 20px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
