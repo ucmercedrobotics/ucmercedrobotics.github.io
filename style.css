@@ -12,8 +12,8 @@ body {
 }
 
 .home-logo {
-    position: absolute;
-    top: 20px; /* Adjust the top positioning as needed */
+    position: fixed;
+    top: 10px; /* Adjust the top positioning as needed */
     left: 20px; /* Adjust the left positioning as needed */
     width: 120px; /* Adjust the width to your preferred size */
     height: auto; /* Maintain aspect ratio */
