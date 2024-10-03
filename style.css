@@ -12,7 +12,7 @@ body {
 }
 
 .home-logo {
-    position: fixed;
+    position: absolute;
     top: 10px; /* Adjust the top positioning as needed */
     left: 20px; /* Adjust the left positioning as needed */
     width: 120px; /* Adjust the width to your preferred size */
@@ -161,7 +161,7 @@ footer {
 .link-section {
     font-family: 'Roboto Serif'; /* Use Roboto Serif for captions */
     font-size: 16px; /* Adjust heading size */
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     color: royalblue; /* Link color */
     text-decoration: none; /* Remove underline from links */
     padding: 10px;
@@ -192,7 +192,7 @@ footer {
 }
 
 .small-image {
-    width: 20px; /* Adjust the size of the image */
+    width: 30px; /* Adjust the size of the image */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any space below the image */
     margin: 0 auto; /* Center the image horizontally */
