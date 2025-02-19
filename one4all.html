@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One For All: LLM-based Heterogeneous Robotic Mission Planning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img src="images/UC_Merced_Seal.png" alt="Home" class="home-logo">
+            </a>
+            <div class="title-container">
+                <h1>One For All: LLM-based Heterogeneous Robotic Mission Planning</h1>
+                <h2>Enabling Generalized Robot Task Planning through LLMs</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="authors">
+            <h3>Authors</h3>
+            <p><a href="https://linkedin.com/in/marcos-zuzuárregui-73a681bb">Marcos Abel Zuzuárregui</a> | 
+               <a href="https://linkedin.com/in/mustafa-melih-toslak">Mustafa Melih Toslak</a> | 
+               <a href="https://robotics.ucmerced.edu/">Stefano Carpin</a></p>
+        </section>
+        
+        <section class="resources">
+            <h3>Resources</h3>
+            <div class="resource-links">
+                <a href="" class="btn">📄 Read the Paper</a>
+                <a href="https://github.com/ucmercedrobotics/NextBestView" class="btn">💻 View Source Code</a>
+            </div>
+        </section>
+        
+        <section class="abstract">
+            <h3>Abstract</h3>
+            <p>Artificial intelligence is transforming precision agriculture by making robotic mission planning accessible to non-technical users. 
+            This paper presents an LLM-powered mission planner capable of generating robot task plans for both mobile robots and robotic arms 
+            using a standardized XML schema. Our approach ensures robust mission execution in environments with limited connectivity, 
+            emphasizing one-shot planning over continuous replanning.</p>
+        </section>
+
+        <section class="architecture">
+            <h3>System Architecture</h3>
+            <img src="one4all/pictures/ifac_gpt_arch.png" alt="System Architecture" class="image" width="80%">
+            <p class="caption">Overview of the LLM-integrated mission planning system.</p>
+        </section>
+
+        <section class="queries">
+            <h3>Mission Queries</h3>
+            <img src="one4all/pictures/kinova_queries.png" alt="Non-spatial" class="image" width="80%">
+            <p class="caption">Non-spatial mission prompts used in experiments.</p>
+            <img src="one4all/pictures/kinova_spatial.png" alt="Spatial" class="image" width="80%">
+            <p class="caption">Spatial mission prompts used in experiments.</p>
+        </section>
+        
+        <section class="results">
+            <h3>Results & Demonstrations</h3>
+            <div class="image-row">
+                <img src="one4all/pictures/rgbimage.png" alt="RGB Image" class="image" width="45%">
+                <img src="one4all/pictures/pointcloud.png" alt="Point Cloud Data" class="image" width="45%">
+            </div>
+            <p class="caption">The system supports both mobile robots and manipulators, enabling seamless mission execution.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; University of California, Merced 2025</p>
+    </footer>
+</body>
+</html>
