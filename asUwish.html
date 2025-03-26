@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCMercedRobotics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/UC_Merced_Seal.png" alt="Home" class="home-logo">
+        </a>
+        <h1>As You Wish: Mission Planning with Formal Verification using LLMs in Precision Agriculture</h1>
+        <h2>Formal Verification using LTLs for LLM generated Mission Plans</h2>
+    </header>
+
+    <main>
+        <div class="header-image-container">        
+            <h3><a href="https://linkedin.com/in/marcos-zuzuárregui-73a681bb" class="link-section">Marcos Abel Zuzuárregui</a></h3>
+            <h3><a href="https://robotics.ucmerced.edu/" class="link-section">Stefano Carpin</a></h3>
+        </div>
+
+        <div class="header-image-container">        
+            <!-- <img src="images/UC_Merced_Seal.png" alt="UCM Seal" class="header-image"> -->
+            <h3><a href="https://robotics.ucmerced.edu/" class="link-section">UC Merced Robotics</a></h3>
+        </div>
+
+        <div class="header-image-container">   
+            <div class="image-link-container">
+                <img src="images/arxiv.png" alt="Arxiv" class="small-image">
+                <h3><a href="" class="link-section">Paper</a></h3>
+            </div>     
+            <div class="image-link-container">
+                <img src="images/github.png" alt="GitHub" class="small-image">
+                <h3><a href="https://github.com/ucmercedrobotics/gpt-mission-planner/tree/case-2025" class="link-section">Source</a></h3>
+            </div>
+        </div>
+
+        <h4>For those interested, here are some resources from the paper.</h4>
+
+        <div class="header-image-container">   
+            <div class="image-link-container">
+                <img src="gpt-mp-ros2/images/xsd.png" alt="XSD" class="small-image">
+                <h3><a href="https://github.com/ucmercedrobotics/gpt-mission-planner/blob/case-2025/app/resources/context/wheeled_bots/schema.xsd" class="link-section">XML Schema Definition (XSD)</a></h3>
+            </div>     
+            <div class="image-link-container">
+                <img src="gpt-mp-ros2/images/geojson.png" alt="GeoJSON" class="small-image">
+                <h3><a href="https://github.com/ucmercedrobotics/gpt-mission-planner/blob/case-2025/app/resources/context/wheeled_bots/reza_medium.geojson" class="link-section">Sample Farm</a></h3>
+            </div>
+        </div>
+
+        <img src="asUwish/spin_arch.png" alt="GPT Architecture" class="image" width="90%">
+        <p class="caption">Our novel architecture using ChatGPT to generate mission plans and formal verification for autonomous robots with constraints and conditionals.
+            <br/> This architecture models <a href="https://standards.ieee.org/ieee/1872.1/6993/">IEEE Standard 1872.1-2024</a> published for robotic task representation.
+        </p>
+
+        <img src="gpt-mp-ros2/images/spatial.png" alt="GPT Architecture" class="image" width="90%">
+        <p class="caption">From our paper, these are the full queries as represented by the short-hand versions. Note, that these are only the spatial queries.</p>
+        <img src="gpt-mp-ros2/images/non-spatial.png" alt="GPT Architecture" class="image" width="90%">
+        <p class="caption">From our paper, these are the full queries as represented by the short-hand versions. Note, that these are only the non-spatial queries.</p>
+        
+    </main>
+
+    <footer>
+        <p>&copy; University of California, Merced 2024</p>
+    </footer>
+</body>
+</html>
